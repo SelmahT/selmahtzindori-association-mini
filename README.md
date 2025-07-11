@@ -22,7 +22,7 @@ We created 10 fake shopping transactions using 8 common grocery items:
 Each transaction randomly included 2–5 items.
 
 **Output:**  
-```markdown
+
 association_rules_outputs/generated_transactions_output.PNG
 
 ---
@@ -31,7 +31,7 @@ association_rules_outputs/generated_transactions_output.PNG
 We used `TransactionEncoder` from the `mlxtend` library to convert the list of transactions into a binary matrix where each item is marked as present (1) or absent (0) in a transaction.
 
 **Output:**  
-```markdown
+
 association_rules_outputs/transactionencoder_output.PNG
 
 ---
@@ -43,7 +43,7 @@ We applied the **Apriori algorithm** with:
 This revealed item combinations that frequently co-occurred.
 
 **Output:**  
-```markdown
+
 association_rules_outputs/apiori_algorithm_output.PNG
 
 ---
@@ -63,7 +63,7 @@ Here are some of the strongest rules found:
 | Cheese → Eggs | 0.75 | 1.50 | Moderate association between Cheese and Eggs |
 
 **Output:**  
-```markdown
+
 association_rules_outputs/association_rules_output.PNG
 
 ---
