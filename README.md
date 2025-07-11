@@ -23,7 +23,7 @@ Each transaction randomly included 2–5 items.
 
 **Output:**  
 
-association_rules_outputs/generated_transactions_output.PNG
+![alt text](association_rules_outputs/generated_transactions_output.PNG)
 
 ---
 
@@ -32,7 +32,7 @@ We used `TransactionEncoder` from the `mlxtend` library to convert the list of t
 
 **Output:**  
 
-association_rules_outputs/transactionencoder_output.PNG
+![alt text](association_rules_outputs/transactionencoder_output.PNG)
 
 ---
 
@@ -44,7 +44,7 @@ This revealed item combinations that frequently co-occurred.
 
 **Output:**  
 
-association_rules_outputs/apiori_algorithm_output.PNG
+![alt text](association_rules_outputs/apiori_algorithm_output.PNG)
 
 ---
 
@@ -64,7 +64,7 @@ Here are some of the strongest rules found:
 
 **Output:**  
 
-association_rules_outputs/association_rules_output.PNG
+![alt text](association_rules_outputs/association_rules_output.PNG)
 
 ---
 
